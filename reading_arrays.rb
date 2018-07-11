@@ -30,7 +30,7 @@ end
 puts first_student_by_method
 
 def last_student_by_method
-student_names.last
+$student_names.last
 
 # Write a solution that returns the first student using the built in .last method
 end
@@ -38,7 +38,7 @@ end
 puts last_student_by_method
 
 def first_second_and_third_students
-student_names[0..2]  # Write a solution that returns the first, second and third students
+$student_names[0..2]  # Write a solution that returns the first, second and third students
 end
 
 puts first_second_and_third_students
