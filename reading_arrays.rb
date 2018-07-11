@@ -1,4 +1,4 @@
-STUDENT_NAMES = ["Adele",
+student_names = ["Adele",
   "Beyoncé",
   "Cardi B",
   "Lady Gaga",
@@ -7,7 +7,7 @@ STUDENT_NAMES = ["Adele",
 ]
 
 def first_student_by_index
-STUDENT_NAMES[0]  # Write a solution that returns the first student in the array student_names
+student_names[0]  # Write a solution that returns the first student in the array student_names
 end
 puts first_student_by_index
 
@@ -38,7 +38,7 @@ end
 puts last_student_by_method
 
 def first_second_and_third_students
-STUDENT_NAMES[0..2]  # Write a solution that returns the first, second and third students
+student_names[0..2]  # Write a solution that returns the first, second and third students
 end
 
 puts first_second_and_third_students
