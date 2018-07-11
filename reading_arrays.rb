@@ -30,15 +30,15 @@ end
 puts first_student_by_method
 
 def last_student_by_method
-puts STUDENT_NAMES.last
+STUDENT_NAMES.last
 
 # Write a solution that returns the first student using the built in .last method
 end
 
-last_student_by_method
+puts last_student_by_method
 
 def first_second_and_third_students
-puts STUDENT_NAMES[0..2]  # Write a solution that returns the first, second and third students
+STUDENT_NAMES[0..2]  # Write a solution that returns the first, second and third students
 end
 
-first_second_and_third_students
+puts first_second_and_third_students
