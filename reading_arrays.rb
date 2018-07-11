@@ -1,5 +1,4 @@
-$student_names = [
-  "Adele",
+$student_names = ["Adele",
   "Beyoncé",
   "Cardi B",
   "Lady Gaga",
