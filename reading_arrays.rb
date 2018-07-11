@@ -18,13 +18,13 @@ end
 puts fourth_student_by_index
 
 def last_student_by_index
-  STUDENT_NAMES[5]# Write a solution that returns the first student in the array student_names
+  student_names[5]# Write a solution that returns the first student in the array student_names
 end
 
 puts last_student_by_index
 
 def first_student_by_method
- STUDENT_NAMES.first # Write a solution that returns the first student using the built in .first method
+ student_names.first # Write a solution that returns the first student using the built in .first method
 end
 
 puts first_student_by_method
