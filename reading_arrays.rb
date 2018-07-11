@@ -12,7 +12,7 @@ end
 puts first_student_by_index
 
 def fourth_student_by_index
-  STUDENT_NAMES[3]# Write a solution that returns the first student in the array student_names
+  student_names[3]# Write a solution that returns the first student in the array student_names
 end
 
 puts fourth_student_by_index
